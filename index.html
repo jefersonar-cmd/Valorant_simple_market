@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <script src="Assets/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="Assets/material_icons/material_icons.css">
+    <link rel="stylesheet" href="Assets/material_symbols/material_symbols.css">
+    <link rel="stylesheet" href="Assets/style.css">
+    <script src="Assets/script.js"></script>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <nav>
+                <h1>Valorant</h1>
+                <ul>
+                    <li><a href="?home">Home</a></li>
+                    <li><a href="?login" id="nLogin">Login</a></li>
+                    <li><a href="?market" id="nMensage">Mensage</a></li>
+                    <li><a href="#" id="sair">Logoff</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="body">
+            <div class="login">
+                <div class="title">Login</div>
+                <div class="lg">
+                    <label for="lg">User:</label>
+                    <input type="text" name="login" id="lg">
+                </div>
+                <div class="ps">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="ps">
+                </div>
+                <div class="btn">
+                    <button type="button" id="logar">Entrar</button>
+                    <a href="?cad">Não possui conta? Faça seu cadastro agora!</a>
+                </div>
+            </div>
+            <div class="catalog">
+                <div class="products">
+                    <a class="material-symbols-outlined" id="left" href="#">
+                        arrow_circle_left
+                    </a>
+                    <img src="" id="product" width="853" height="479" alt="">
+                    <a class="material-symbols-outlined" id="right" href="#">
+                        arrow_circle_right
+                    </a>
+                </div>
+                <div class="select"></div>
+            </div>
+            <div class="form">
+                <div class="title">
+                    <h2>Sing Up</h2>
+                </div>
+                <div class="usrlogin">
+                    <section>
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="usr" id="usr" required>
+                    </section>
+                    <section>
+                        <label for="lgin">Login:</label>
+                        <input type="text" name="lgin" id="lgin" required>
+                    </section>
+                </div>
+                <div class="passre">
+                    <section>
+                        <label for="pass">Password:</label>
+                        <input type="password" name="pass" id="pass" required>
+                    </section>
+                    <section>
+                        <label for="repass">Re-Password:</label>
+                        <input type="password" name="repass" id="repass" required>
+                    </section>
+                </div>
+                <div class="btn">
+                    <button type="button" id="cad">Sing Up</button>
+                    <a href="?login">Já possui cadastro? Faça seu Login!</a>
+                </div>
+            </div>
+            <div class="carrinho">
+                <h1 id="user">Usuário: </h1>
+                <h1 id="produto">Produto Selecionado: </h1>
+                <img src="" id="img" alt="" width="300" height="150">
+                <h1>Obrigado por usar nosso sistema</h1>
+                <h2>O mesmo está sendo atualizado</h2>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
